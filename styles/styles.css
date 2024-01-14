@@ -1,0 +1,38 @@
+.home{
+    color: red;
+}
+
+.about{
+    color: green;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    margin: 10px;
+    padding: 20px 40px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: darkgray;
+}
+
+.active{
+    border: 2px solid blue;
+}
+
+.title{
+    text-align: center;
+    font-size: 128px;
+}
+
+body{
+    font-size: 32px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
